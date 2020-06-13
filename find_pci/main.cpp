@@ -3,8 +3,6 @@ extern "C" {
 #include <pci/pci.h>
 }
 
-#define PCI_ANY_ID   (0xffff)
-
 int main() {
 	pci_dev *p_dev = nullptr;
 	pci_access *p_access = nullptr;
